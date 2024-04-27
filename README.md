@@ -28,7 +28,7 @@ sequenceDiagram
 - [ ] The API should generate vector embeddings of the filtered user requests.
 - [ ] The LLM container should be able to take the request embeddings as input and generate initial responses.
 - [ ] The LoRA Head container should be able to fine-tune the initial responses from the LLM using the specified LoRA head (if attached).
-- [ ] The final response (either from the LLM or the LoRA Head container) should be sent back to the API.
+- [ ] The final response (from the LLM and the LoRA Head container) should be sent back to the API.
 - [ ] The API should return the final response to the user.
 
 ## System Requirements
